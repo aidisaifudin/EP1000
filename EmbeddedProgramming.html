@@ -42,6 +42,23 @@
     <p><img src ="images/arduinosample1.PNG" width="320" height="250" alt="arduino1"></p>
     <p><img src ="images/arduinosample2.PNG" width="250" height="250" alt="arduino2"></p>
     <p>This is one of my work that I made using the Arduino simulator. I have used the LED as an <b>OUTPUT</b> and the push button as <b>INPUT.</b>Firstly i declare the variable of the LED points to where it is connected. Always connect the ground wire(black) and volt 5 wire(red). I also declare the push button port. I also declare a switch value at the start. Inside the loop, I make the switch value the same value as the push button value. If the button is pressed, the switch value is <b>LOW.</b> If it is not pressed, then it will be <b>HIGH.</b>I can also put delay timer. If I want a fixed delay timer, I can declare it at the start so that I will not need to input the value for every loop.</p>
+    
+    <p><h1>Pedestrian Traffic light</h1></p>
+    <p>One of the assignment the lecturers gave me is making a pedestrian traffic light. It is quite challenging for me as this is quite new for me. After much research and reference, I managed to do it. I will put pictures for future reference for the setup and code</p>
+    
+    <p><img src ="images/pedestrian1.PNG" width="500" height="350" alt="pedestrian1"></p>
+    
+    <p><h2><b><u>Code</u></b></h2></p>
+     <p><img src ="images/pedestrian2.PNG" width="350" height="350" alt="pedestrian2"></p>
+    <p><img src ="images/pedestrian3.PNG" width="400" height="350" alt="pedestrian3"></p>
+    <p><img src ="images/pedestrian4.PNG" width="400" height="350" alt="pedestrian4"></p>
+    
+    
+    <p>From the code, I first declare the LED which is green, orange and red. Then, I declare the button also. I declare the button and LED to their respective ports depending on yourself. In the setup function, I set the LED as <b>OUTPUTS</b> and the button as <b>INPUT</b>. I also code such that the LED will be off at the very start</p>
+    
+    <p>In the loop function, I have put the loop that I want my traffic light to be on loop. I will start with green light switch on and off the rest of the LED. Then, the orange will be on and green will off. Then the red will be on and orange will go off. </p>
+    
+    <p>While the green button is on, I have code such that it will create a countdown till 31. While this counting down is happening, when the button is , it will <b>return</b> back to the loop. Basically, I have made a function called <i>greenLight</i> like in the picture above which I have put while green light is on. This create the pedestrian traffic light.</p>
         
     </div>
     
